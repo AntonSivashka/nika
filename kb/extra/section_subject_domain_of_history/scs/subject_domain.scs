@@ -1,0 +1,112 @@
+section_subject_domain_of_history
+    => nrel_main_idtf:
+        [Раздел. Предметная область по истории] (* <- lang_ru;; *);
+<- sc_node_class;
+<- atomic_section;;
+
+section_subject_domain_of_history = [*
+    subject_domain_of_history
+        => nrel_main_idtf: 
+            [Предметная область по истории] (* <- lang_ru;; *);
+        <- subject_domain;
+        -> rrel_maximum_studied_object_class:
+            concept_history;
+        -> rrel_explored_relation:
+            nrel_start_war;
+            nrel_end_war;
+            nrel_start_revolution;
+            nrel_end_revolution;
+            rrel_first_side;
+            rrel_second_side;
+            nrel_independ_from;
+            nrel_main_country;
+        -> rrel_not_maximum_studied_object_class:
+            concept_prehistory;
+            concept_ancient;
+            concept_antiquity;
+            concept_medieval;
+            concept_renaissance;
+            concept_modern;
+            concept_bronze_age;
+            concept_iron_age;
+            concept_early_middleage;
+            concept_high_middleage;
+            concept_late_middleage;
+            concept_age_of_discovery;
+            concept_industrial;
+            concept_interwar;
+            concept_postwar;
+            concept_information_age;
+            concept_palaeolithic;
+            concept_mesolithic;
+            concept_neolithic;
+            concept_revolution;
+            concept_country;
+            concept_country_french;
+            concept_country_england;
+            concept_country_germany;
+            concept_country_china;
+            concept_country_russia;
+            concept_country_spain;
+            concept_country_india;
+            concept_country_usa;
+            concept_country_poland;
+            concept_country_italy;
+            concept_country_greek;
+            concept_country_turkey;
+            concept_country_lithuania;
+            concept_country_netherlands;
+            concept_war;
+            concept_union;;
+*];;
+
+
+section_subject_domain_of_history 
+    -> rrel_key_sc_element:
+            subject_domain_of_history;
+            concept_prehistory;
+            concept_ancient;
+            concept_antiquity;
+            concept_medieval;
+            concept_renaissance;
+            concept_modern;
+            concept_bronze_age;
+            concept_iron_age;
+            concept_early_middleage;
+            concept_high_middleage;
+            concept_late_middleage;
+            concept_age_of_discovery;
+            concept_industrial;
+            concept_interwar;
+            concept_postwar;
+            concept_information_age;
+            concept_palaeolithic;
+            concept_mesolithic;
+            concept_neolithic;
+            concept_revolution;
+            concept_country;
+            concept_country_french;
+            concept_country_england;
+            concept_country_germany;
+            concept_country_china;
+            concept_country_russia;
+            concept_country_spain;
+            concept_country_india;
+            concept_country_usa;
+            concept_country_poland;
+            concept_country_italy;
+            concept_country_greek;
+            concept_country_turkey;
+            concept_country_lithuania;
+            concept_country_netherlands;
+            concept_war;
+            concept_union;
+            nrel_start_war;
+            nrel_end_war;
+            nrel_start_revolution;
+            nrel_end_revolution;
+            rrel_first_side;
+            rrel_second_side;
+            nrel_independ_from;
+            nrel_main_country;;
+            

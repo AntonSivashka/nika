@@ -790,14 +790,14 @@ concept_country_usa
 concept_country_poland
 <- sc_node_class;
 => nrel_main_idtf:
-	[Пошльша] (* <- lang_ru;; *);
+	[Польша] (* <- lang_ru;; *);
 => nrel_main_idtf:
 	[Poland] (* <- lang_en;; *);
 <- rrel_key_sc_element:
 	...
 	(*
 		=> nrel_main_idtf:
-			[Опр. (Пошльша)]
+			[Опр. (Польша)]
 			(* <- lang_ru;; *);;
 		<- definition;;
 		<= nrel_sc_text_translation:

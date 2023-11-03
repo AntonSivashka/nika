@@ -299,8 +299,8 @@ silk_road
 
 // 18
 formered_christianity
-<- concept_jet;
-<- concept_astronomical_body;
+<- concept_antiquity;
+<- concept_country_italy;
 => nrel_main_idtf:
 	[Формирование Христианства] (* <- lang_ru;; *);
 => nrel_main_idtf:
