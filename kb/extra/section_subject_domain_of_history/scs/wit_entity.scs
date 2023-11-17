@@ -1,17 +1,36 @@
-concept_your_wit_entity_class
+concept_wit_entity
 <- sc_node_class;
 <- concept_entity_possible_class;
 => nrel_main_idtf:
-	[Название класса сущностей]
+	[Сущность wit]
 	(* <- lang_ru;; *);
 => nrel_wit_ai_idtf:
-	[Название entity из wit.ai];
--> your_entity;
+	[rrel_entity];
+-> silk_road;
+-> america_independence_war;
+-> french_revolution;
+-> concept_history;
+-> reformation;
+-> october_revolution;
+-> space_age;
+-> cold_war;
+-> transistor_revolution;
+-> european_union;
+-> early_homo_sapience;
+-> first_countries;
+-> neolitic_resettlement;
+-> greece_unite;
+-> macedonian_war;
+-> rome_unite;
+-> age_of_migrations;
+-> formered_christianity;
+-> concept_country_french;
+
 => nrel_entity_possible_role:
     ..roles;;
 
 ..roles
 <- sc_node_role_relation;
 => nrel_wit_ai_idtf:
-	[Название entity из wit.ai];;
+	[rrel_entity];;
 
