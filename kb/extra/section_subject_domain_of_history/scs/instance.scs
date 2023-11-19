@@ -235,8 +235,8 @@ macedonian_war
 <- concept_ancient;
 <- concept_country_greek;
 <- concept_war;
-=> nrel_start_war: 214;
-=> nrel_end_war: 148; 
+=> nrel_start_war: [214] (* <- lang_ru;; *);
+=> nrel_end_war: [148] (* <- lang_ru;; *); 
 => nrel_main_idtf:
 	[Македонские войны] (* <- lang_ru;; *);
 => nrel_main_idtf:
